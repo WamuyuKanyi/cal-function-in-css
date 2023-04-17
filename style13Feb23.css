@@ -1,0 +1,21 @@
+/* calc */
+/* perform math operations + - * */
+/* mix and match values */
+*{
+margin: 0;
+}
+
+.navbar{
+ background-color: blue;
+ height: 100px;
+ color: white;
+ font-size: 3rem;
+
+}
+
+.banner{
+ background-color: red;
+ /* make sure when you are doing the calculation there is space inbetween or else it wont work */
+ /* we have performed this mathematical operation to make sure its 100% */
+ min-height: calc(100vh - 100px);
+}
